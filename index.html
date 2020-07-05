@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+
+    <!-- favicons start-->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicons end-->
+
+    <title> Odysseus travel agency </title>
+
+    
+</head>
+<!--logo area -->
+<body>
+<div id="logo-area" style="background-image: url(vendors/img/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center">
+    <div class="img-container-A">
+        <img src="resources/img/Logo-Recovered.png" alt="logo">
+    </div>
+    <div id="img-container-B">
+        <div class="A">
+            <img src="vendors/img/ABTA70ColourRGB.png" alt="ABTA" class="foto">
+        </div>
+        <div class="B">
+            <img src="vendors/img/iso-9001-certified-logo-AC594FAD01-seeklogo.com.png" alt="ISO9001">
+        </div>
+    </div>
+</div>
+
+<!--top navigation-->
+<nav id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn"> Destinations
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Spain</a>
+            <a href="#">Greece</a>
+            <a href="#">Portugal</a>
+            <a href="#">Caribbean</a>
+            <a href="#">Far East</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> City breaks
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Paris</a>
+              <a href="#">Berlin</a>
+              <a href="#">Krakow</a>
+              <a href="#">Amsterdam</a>
+            </div>
+          </div>
+        <a href="#about">About</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">&#9776;</a>
+</nav>
+<!--end of top navigation-->
+
+<div class="page-title">
+    <h1>Top Offers</h1>
+</div>
+
+<!--carousel-->
+<div class="carousel-content">
+      <div class="carousel">
+        <div class="carousel-prev"></div>
+        <div class="carousel-next"></div>
+        <ul class="carousel-pagination">
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+        </ul>
+        <ul class="carousel-container">
+            <li class="carousel-item">
+                <!--item 1 in carousel -->
+                <div class="item-1"> 
+                    <!--do not modify above this part-->
+
+                    <!--left carousel container-->
+                    <div class="carousel-item-A"> 
+                       <div class="carousel-image">
+                            <img src="vendors/img/matthias-mullie-RvDc461s1EI-unsplash.jpg" alt="croatia">
+                        </div>
+
+                        <div class="carousel-wrapper">
+                            <!--row 1 in wrapper-->
+                        <div class="carousel-header">
+                                <h4>Split, Croatia</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Heritage Palace Varos hotel </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;179 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--central carousel container-->
+                    <div class="carousel-item-B"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/Stairway-Costa-Paradiso-Sardinia-1024x683.jpg" alt="sardegna">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 2 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Alghero, Sardegna</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Hotel Costa Paradiso</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;259 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right carousel container-->
+                    <div class="carousel-item-C"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/orthodox-165084_1280.jpg" alt="crete">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 3 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Crete, Greece</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Iberostar Creta Panorama &amp; Mare </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;349 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end of item 1 in carousel -->
+            </li>
+            <li class="carousel-item">
+                <div class="item-2">
+                    <!--left carousel container-->
+                    <div class="carousel-item-A"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/dimitry-b-uDl5opHop7E-unsplash.jpg" alt="andalusia">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 1 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Andalusia, Spain</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Sacromonte hotel </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;199 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--central carousel container-->
+                    <div class="carousel-item-B"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/tunisia-1545828_1920.jpg" alt="tunisia">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 2 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Tunis, Tunisia</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Hotel Hotel Carlton</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;229 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right carousel container-->
+                    <div class="carousel-item-C"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/nature-3595382_1920.jpg" alt="azores">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 3 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Ponta Delgada, Azores</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Hotel Alcides </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;329 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="item-3">
+                    <div class="carousel-item-A"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/portugal-3029665_1920.jpg" alt="algarve">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 1 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Algarve, Portugal</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon> <p> Muthu Clube Praia Da Oura</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;199 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--central carousel container-->
+                    <div class="carousel-item-B"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/san-telmo-3552142_1920.jpg" alt="Tenerife">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 2 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Tenerife, Spain</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Spring Hotel Vulcano</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;259 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right carousel container-->
+                    <div class="carousel-item-C"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/church-2020258_1920.jpg" alt="santorini">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 3 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Santorini, Greece</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Amaryllis Hotel </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;399 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="item-4">
+                    <div class="carousel-item-A"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/morocco-2809965_1920.jpg" alt="morocco">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 1 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Marrakesh, Morocco</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Zwin Zwin boutique-hotel </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;179 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--central carousel container-->
+                    <div class="carousel-item-B"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/hot-air-ballons-828967_1920.jpg" alt="cappadocia">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 2 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Cappadocia, Turkey</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>  <p> Aydinli Cave Hotel</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;259 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right carousel container-->
+                    <div class="carousel-item-C"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/camogli-4166255_1920.jpg" alt="genoa">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 3 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Genoa, Italy</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Hotel Palazzo Grillo  </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;359 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="item-5">
+                    <div class="carousel-item-A"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/majorca-4275431_1920.jpg" alt="majorca">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 1 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Majorca, Spain</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <p> Sa Carrotja Hotel </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;199 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--central carousel container-->
+                    <div class="carousel-item-B"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/prague-4794636_1920.jpg" alt="prague">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 2 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Prague, Czech Republic</h4>
+                            </div>
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon><p> Iron Gate Hotel and Suites</p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;159 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right carousel container-->
+                    <div class="carousel-item-C"> 
+                        <div class="carousel-image">
+                            <img src="vendors/img/denis-arslanbekov-b-eGDk5_gPo-unsplash.jpg" alt="georgia">
+                        </div>
+                        <div class="carousel-wrapper">
+                            <!--row 3 in wrapper-->
+                            <div class="carousel-header">
+                                <h4>Tibilisi, Georgia</h4>
+                            </div>
+                            
+                            <div class="details-container"> 
+                                <div class="sub-container"> 
+                                    <div class="hotel-name"> 
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon><p> Hotel Tbilisi Tower </p>
+                                    </div>
+                                    <div class="origin">
+                                        <ion-icon name="airplane"></ion-icon> <p> Selected airports</p>
+                                    </div>
+                                </div>
+                                <div class="price"> 
+                                    <p> From &pound;179 p/p  </p>
+                                </div>
+                            </div>
+
+                            <div class="learn-more"> 
+                                <h3><a href="#"> Find out more </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+
+       
+</div>
+<!-- end of carousel -->
+
+</div>
+   
+<!-- footer start-->
+<div class="page-footer">
+    <div class="address">
+        <p> 13 Farfar Away Street <br> Far Far Away, FF1 A13 </p>
+    </div>
+    <div class="legal">
+        <p> &copy; Copyright 2020 </p>
+    </div>
+    <div class="registered">
+        <p> <a href="#"> Terms of business</a> </p>
+    </div>
+    <div class="social-media">
+        <p> Follow us</p>
+        <ul class="footer-img-container"> 
+            <li> <a href="#"> <img src="vendors/img/facebook.png" alt="facebook"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/twitter.png" alt="twitter"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/instagram-sketched.png" alt="instagram"></a></li>
+            <li> <a href="#"> <img src="vendors/img/whatsapp.png" alt="whatsapp"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- footer end-->
+
+
+
+
+    <!--- scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> <!--bootstrap-->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> <!--font awsome-->
+    <script src="resources/js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/450f05111f.js"></script>
+</body>
+</html>
