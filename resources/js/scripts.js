@@ -45,3 +45,34 @@ pagination.addEventListener('click', function(e) {
         slideTo(index);
     }
 }, false);
+
+//-------------------------------------------------------------------------------
+// NEWS 
+//-------------------------------------------------------------------------
+
+function displayTextOne() {
+  var e = document.getElementById("news-details-item1");
+  if (e.style.display === "none") {
+    e.style.display = "block";
+  } else {
+    e.style.display = "none";
+  }
+}
+
+function displayTextTwo() {
+  var e = document.getElementById("news-details-item2");
+  if (e.style.display === "none") {
+    e.style.display = "block";
+  } else {
+    e.style.display = "none";
+  }
+}
+
+function displayTextThree() {
+  var e = document.getElementById("news-details-item3");
+  if (e.style.display === "none") {
+    e.style.display = "block";
+  } else {
+    e.style.display = "none";
+  }
+}

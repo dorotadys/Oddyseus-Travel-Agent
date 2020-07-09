@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- link to animation on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- end of link to animation on scroll -->
+
+
+    <!-- favicons start-->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicons end-->
+
+    <title> Odysseus travel agency </title>
+
+    
+</head>
+<!--logo area -->
+<body>
+<div id="logo-area" style="background-image: url(vendors/img/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="img-container-A">
+        <img src="resources/img/Logo-Recovered.png" alt="logo">
+    </div>
+    <div class="img-container-B">
+        <div class="A">
+            <img src="vendors/img/ABTA70ColourRGB.png" alt="ABTA" class="foto">
+        </div>
+        <div class="B">
+            <img src="vendors/img/iso-9001-certified-logo-AC594FAD01-seeklogo.com.png" alt="ISO9001">
+        </div>
+    </div>
+</div>
+
+<!--top navigation-->
+<nav>
+        <a href="index.html">Home</a>
+        <a href="news.html" class="active">News</a>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn"> Destinations
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Spain</a>
+            <a href="#">Greece</a>
+            <a href="#">Portugal</a>
+            <a href="#">Caribbean</a>
+            <a href="#">Far East</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> City breaks
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Paris</a>
+              <a href="#">Berlin</a>
+              <a href="#">Krakow</a>
+              <a href="#">Amsterdam</a>
+            </div>
+          </div>
+        <a href="#about">About</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">&#9776;</a>
+</nav>
+<!--end of top navigation-->
+
+<div class="page-title">
+    <h1>News</h1>
+</div>
+<div class="news-container">
+    <div class="news-item1">
+        <p class="date-published"> Date published: 03/07/2020 </p>
+        <h5>Coronavirus travel restrictions</h5>
+        <button class="news-button" onclick=displayTextOne()>Learn more</button>
+        <div id="news-details-item1">
+            <p> As per new travel restructions from 10 July 2020 travellers will not be required to self-isolatewhen they arrive in England, if they:</p>
+            <ul> 
+                <li>are travelling or returning from one of the countries with travel corridor exemption;</li>
+                <li> have not been to or stopped in a country that’s not on the travel corridors exemption list in the previous 14 days. </li>
+            </ul>
+            <p> This applies to all travel to England, by train, ferry, coach, air or any other route. </p>
+            <p> 
+            Those arriving from the countries that are not on the travel corridors exemption list will have to self-isolate until 14 days have passed since you left that country.</p>
+            <p> Further details can be found <a href="https://www.gov.uk/guidance/coronavirus-covid-19-travel-corridors" target="_blank"> here </a></p>
+        </div>
+    </div>
+    <div class="news-item2">
+        <p class="date-published"> Date published: 16/06/2020 </p>
+        <h5>Important update on contacting Odysseus</h5>
+        <button class="news-button" onclick="displayTextTwo()">Learn more</button>
+        <div id="news-details-item2">
+            <p> Due to the current circumstances with the global spread of COVID-19, we are working with a significantly reduced team who are all working very hard to support you, our customers.</p>
+            <p> We want you to know we are still here to help you and would ask that if you are looking to get in touch with our team, that you read the below information to help direct your query.</p>
+            <p> For enquiries about an existing holiday, including queries about payment and balances, please email <a href="mailto: support.team@oddyseus.co.uk"> support.team@oddyseus.co.uk </a>
+            <p> If you are contacting us with regards to a query about a refund or credit note that is already in progress, our current response time is a minimum of 28 days. We are working closely with ABTA in accordance with their guidelines.</p>
+            <p>If you would like to pay your balance on your holiday, you can do so by clicking here. If this does not work, please use the alternative link by clicking here. </p>
+            <p> If you are enquiring about a new holiday, please email <a href="newenquiry@oddyseus.co.uk">newenquiry@oddyseus.co.uk </a> </p>
+            <p> Please note, these are unprecedented times and we are working hard through an extremely high volume of enquiries right now. We kindly ask that you bear with us and be patient – one of our team will get back to you within the above time-frames. </p>
+            <p> Thank you for your patience and support.</p>
+            <p> Your Oddyseus team </p>
+        </div>
+    </div>
+    <div class="news-item3">
+        <p class="date-published"> Date published: 20/03/2020 </p>
+        <h5>Thomas Hartley Retirement</h5>
+        <button class="news-button" onclick="displayTextThree()">Learn more</button>
+        <div id="news-details-item3">
+            <p> Thomas Hartley, one of the funding directors of Oddyseus announced his returement from the role of Chef Financial Officer. He has funded Occyseus in 2005 along and worked in the company since then. </p> 
+            <div class="news-img-container"> 
+                <img src="vendors/img/linkedin-sales-navigator-pAtA8xe_iVM-unsplash.jpg" alt="CFO">
+            </div>
+            <p> Martin Lawrence, a chairman and chef executive officer:        <i> "I want to thank Tom for his many contributions over the course of his distinguished career at Oddyseus,” </i> said: <i> “As a highly valued member of our company’s executive leadership team, Tom played an important role in guiding our successful transformation as an independent exploration and production company. I wish Tom the very best in retirement.”</i>
+            </span> </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+   
+<!-- footer start-->
+<div class="page-footer">
+    <div class="address">
+        <p> 13 Farfar Away Street <br> Far Far Away, FF1 A13 </p>
+    </div>
+    <div class="legal">
+        <p> &copy; Copyright 2020 </p>
+    </div>
+    <div class="registered">
+        <p> <a href="#"> Terms of business</a> </p>
+    </div>
+    <div class="social-media">
+        <p> Follow us</p>
+        <ul class="footer-img-container"> 
+            <li> <a href="#"> <img src="vendors/img/facebook.png" alt="facebook"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/twitter.png" alt="twitter"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/instagram-sketched.png" alt="instagram"></a></li>
+            <li> <a href="#"> <img src="vendors/img/whatsapp.png" alt="whatsapp"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- footer end-->
+
+
+
+
+    <!--- scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--script to animation on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- end of script to animation on scroll -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> <!--bootstrap-->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> <!--font awsome-->
+    <script src="resources/js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/450f05111f.js"></script>
+</body>
+</html>

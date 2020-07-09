@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+
+    <!-- favicons start-->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicons end-->
+
+    <title> Odysseus travel agency </title>
+
+    
+</head>
+<!--logo area -->
+<body>
+<div id="logo-area" style="background-image: url(vendors/img/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center">
+    <div class="img-container-A">
+        <img src="resources/img/Logo-Recovered.png" alt="logo">
+    </div>
+    <div class="img-container-B">
+        <div class="A">
+            <img src="vendors/img/ABTA70ColourRGB.png" alt="ABTA" class="foto">
+        </div>
+        <div class="B">
+            <img src="vendors/img/iso-9001-certified-logo-AC594FAD01-seeklogo.com.png" alt="ISO9001">
+        </div>
+    </div>
+</div>
+<!-- end of logo area -->
+<!--top navigation-->
+<nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="#contact"  class="active">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn"> Destinations
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Spain</a>
+            <a href="#">Greece</a>
+            <a href="#">Portugal</a>
+            <a href="#">Caribbean</a>
+            <a href="#">Far East</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> City breaks
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Paris</a>
+              <a href="#">Berlin</a>
+              <a href="#">Krakow</a>
+              <a href="#">Amsterdam</a>
+            </div>
+          </div>
+        <a href="#about">About</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">&#9776;</a>
+</nav>
+<!--end of top navigation-->
+
+<div class="page-title">
+    <h1>Contact</h1>
+</div>
+    <div class="contact-page-container">
+        <div class="col-1-of-2">
+            <!--contact us form -->
+            <!--form title-->
+            <div class="form-title">
+                <div class="contact-icon">
+                    <img src="resources/img/message-us-icon.png" alt="pen"/>
+                </div>
+                <div class="form-title-text">
+                    <h2>Send us a message</h2>
+                </div>
+            </div>
+            <!--end of form title-->
+            <div class="contact-form">
+                <table id="contact-form">
+                    <form method="POST" id="fontact-form">
+                        <tr>
+                            <td>
+                                <label>First name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" required>
+                            </td>
+                            <td>
+                                <label>Email</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Phone</label>
+                            </td>
+                            <td> 
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            </td>
+                            <td>
+                                <label>Purpose</label>
+                            </td>
+                            <td>
+                                <select name="purpose">
+                                    <option value="" selected disabled hidden>Choose here</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="enquire">Enquire</option>
+                                    <option value="suggestion">Suggestion</option>
+                                    <option value="data-protection">Data Protection Officer</option>
+                                    <option value="other"> Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="newsletter" checked="checked">
+                            </td>
+                            <td>
+                                <label>Subscribe our newsletter</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <label for="message">Your message</label>
+                        </tr>
+                        <tr>
+                            <textarea placeholder="Type your message here..."></textarea>
+                        </tr>
+                        <tr>
+                            <input type="submit" value="Submit now">
+                            <input type="reset" value="Reset">
+                        </tr>
+                    </form>
+                </table>
+            </div>
+            </div>
+            
+            <!--end of contact us form -->
+        <div class="col-2-of-2"> 
+            <div class="contact-container">
+                <img src="https://img.icons8.com/ios-filled/50/000000/headset.png" alt="headset"/>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+   
+<!-- footer start-->
+<div class="page-footer">
+    <div class="address">
+        <p> 13 Farfar Away Street <br> Far Far Away, FF1 A13 </p>
+    </div>
+    <div class="legal">
+        <p> &copy; Copyright 2020 </p>
+    </div>
+    <div class="registered">
+        <p> <a href="#"> Terms of business</a> </p>
+    </div>
+    <div class="social-media">
+        <p> Follow us</p>
+        <ul class="footer-img-container"> 
+            <li> <a href="#"> <img src="vendors/img/facebook.png" alt="facebook"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/twitter.png" alt="twitter"></a> </li>
+            <li> <a href="#"> <img src="vendors/img/instagram-sketched.png" alt="instagram"></a></li>
+            <li> <a href="#"> <img src="vendors/img/whatsapp.png" alt="whatsapp"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- footer end-->
+
+
+
+
+    <!--- scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> <!--bootstrap-->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> <!--font awsome-->
+    <script src="resources/js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/450f05111f.js"></script>
+</body>
+</html>
