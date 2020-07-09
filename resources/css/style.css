@@ -61,48 +61,55 @@ NAVIGATION
 -----------------------------*/
 
 /* logo */
-#logo-area {
+#logo-bar {
     display: flex;
     height: 170px;
     width:100%;
     justify-content: space-between;
     margin: auto;
+    background-image: url(vendors/img/background.jpg); /*does not work, but why? */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center
 }
 
 .img-container-A {
-    height: 80%;
-    justify-self: start;
-    margin: auto;
-    background-color: red;
+    width: 60%;
+    align-self: flex-end;
+    height: 70%;
+    justify-content: start;
+    margin-bottom: 5px;
 }
 
 .img-container-A img {
     height: 100%;
+    margin-left:20px;
 }
 
 .img-container-B {
     display: flex;
+    width: 40%;
     flex-direction: column;
-    height: 100%;
-    background-color:green;
-    justify-self: flex-end;
-    margin: auto;
+    justify-content: space-around;
 }
 
 .A,
 .B  {
-    height: 30%;
-    justify-content: right;
-    margin: auto;
-    align-content: flex-start;
-    background-color: yellow;
+    height: 35%;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 .A img,
 .B img {
-    height: 100%;
-    margin-right: 0px;
+    height:100%;
+    margin: 2px 2px;
 }
+
+
+/* add media query here */
+
 
 /* navigation */
 nav {
@@ -741,8 +748,7 @@ td:nth-child(even) {
       text-align: left;
   }
 
-
- input[type=text], input[type=email], input[type=number], input[type=tel], select, textarea {
+input[type=text], input[type=email], input[type=number], input[type=tel], select, textarea {
     background-color: #f4f6f5;
     border-radius: 5px;
     box-shadow: 3px 8px 18px -10px rgba(0,0,0,0.75);
@@ -751,8 +757,6 @@ td:nth-child(even) {
     width:100%;
     height: 30px;
 }
-
-
 
 input[type=submit], input[type=reset] {
     border-radius: 10px;
@@ -764,7 +768,6 @@ input[type=submit], input[type=reset] {
     border-style: solid;
     box-shadow: 3px 8px 18px -10px rgba(0,0,0,0.75);
 }
-
 
 input[type=submit] {
     background-color: #00acbc;
