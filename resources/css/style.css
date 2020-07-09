@@ -356,6 +356,35 @@ FOOTER
     }
 }
 
+@media only screen and (max-width : 576px) {
+    .page-footer {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .page-footer p {
+        font-size: 60%;
+        font-weight: 300px;
+        text-align: center;
+    }
+
+    .address {
+        margin-left: 5px;
+    } 
+    
+    .social-media {
+        margin-right: 5px;
+    } 
+
+    .social-media li {
+        margin-left: 1px;
+    }
+
+    .social-media img {
+        height: 10px;
+    }
+}
+
 /*-----------------------------
 CAROUSEL
 -----------------------------*/
@@ -822,6 +851,9 @@ label {
     box-shadow: -9px 7px 10px -7px rgba(0,0,0,0.75);
 }
 
+.full-width-wrapper {
+    margin-bottom: -5px;
+}
 
 /*--------------------------------
 NEWS
