@@ -88,8 +88,8 @@
             </div>
             <!--end of form title-->
             <div class="contact-form">
-                <table id="contact-form">
-                    <form method="POST" id="fontact-form">
+                <form method="POST" id="fontact-form">
+                    <table id="contact-form">
                         <tr>
                             <td>
                                 <label>First name</label>
@@ -116,7 +116,7 @@
                             </td>
                             <td>
                                 <select name="purpose">
-                                    <option value="" selected disabled hidden > Choose here</option>
+                                    <option value="" selected disabled hidden > Choose one</option>
                                     <option value="complaint">Complaint</option>
                                     <option value="enquire">Enquire</option>
                                     <option value="suggestion">Suggestion</option>
@@ -134,17 +134,20 @@
                             </td>
                         </tr>
                         <tr>
-                            <label for="message">Your message</label>
+                            <td>
+                                <label for="message">Your message</label>
+                            </td>
+                            <td colspan="3">
+                                <textarea placeholder="Type your message here..."></textarea>
+                            </td>
                         </tr>
                         <tr>
-                            <textarea placeholder="Type your message here..."></textarea>
-                        </tr>
-                        <tr>
-                            <input type="submit" value="Submit now">
-                            <input type="reset" value="Reset">
-                        </tr>
-                    </form>
-                </table>
+                            <td colspan="4">
+                                <input type="submit" value="Submit now">
+                                <input type="reset" value="Reset">
+                            </td>
+                    </table>
+                </form>
             </div>
             </div>
             
@@ -154,6 +157,9 @@
                 <img src="https://img.icons8.com/ios-filled/50/000000/headset.png" alt="headset"/>
             </div>
         </div>
+    </div>
+    <div class="full-width-wrapper">
+        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=St%20george's%20drive%20pimlico+(My%20Business%20Name)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
     </div>
 

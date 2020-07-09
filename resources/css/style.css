@@ -686,7 +686,6 @@ CONTACT
 
 .col-1-of-2 {
     width: 70%;
-    background-color: greenyellow;
     display: flex;
     flex-direction: column;
 }
@@ -719,8 +718,8 @@ CONTACT
     padding-left: 50px;
     border-left: 2px #00acbc solid;
 }
-
-/* table, tr, td {
+/* 
+table, tr, td {
     border: 1px solid black;
     width:fit-content;
   } */
@@ -732,11 +731,9 @@ tr, td {
 
 table {
       width:100%;
-      /* background-color: red; */
       display: block;
       table-layout: fixed; /* maybe media query only? */
   }
-
 
 td:nth-child(odd) {
       width: 150px;
@@ -755,8 +752,16 @@ input[type=text], input[type=email], input[type=number], input[type=tel], select
     outline: none;
     border-style:ridge;
     width:100%;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=tel], select {
     height: 30px;
 }
+
+textarea {
+    height: 90px;
+}
+
 
 input[type=submit], input[type=reset] {
     border-radius: 10px;
