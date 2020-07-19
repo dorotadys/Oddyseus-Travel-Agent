@@ -23,20 +23,20 @@
 </head>
 <!--logo area -->
 <body>
-<div id="logo-bar" style="background-image: url(vendors/img/background.jpg)">
-    <div class="img-container-A">
-        <img src="resources/img/Logo-Recovered.png" alt="logo">
-    </div>
-    <div class="img-container-B">
-        <div class="A">
-            <img src="vendors/img/ABTA70ColourRGB.png" alt="ABTA" class="foto">
+    <div class="logo-bar">
+        <div class="img-container-A">
+            <img src="resources/img/Logo-Recovered.png" alt="logo">
         </div>
-        <div class="B">
-            <img src="vendors/img/iso-9001-certified-logo-AC594FAD01-seeklogo.com.png" alt="ISO9001">
+        <div class="img-container-B">
+            <div class="A">
+                <img src="vendors/img/ABTA70ColourRGB.png" alt="ABTA" class="foto">
+            </div>
+            <div class="B">
+                <img src="vendors/img/iso-9001-certified-logo-AC594FAD01-seeklogo.com.png" alt="ISO9001">
+            </div>
         </div>
     </div>
-</div>
-<!-- end of logo area -->
+    <!-- end of logo area -->
 <!--top navigation-->
 <nav>
         <a href="index.html">Home</a>
@@ -87,74 +87,66 @@
                 </div>
             </div>
             <!--end of form title-->
-            <div class="contact-form">
-                <form method="POST" id="fontact-form">
-                    <table id="contact-form">
-                        <tr>
-                            <td>
-                                <label>First name</label>
-                            </td>
-                            <td>
-                                <input type="text" name="name" required>
-                            </td>
-                            <td>
-                                <label>Email</label>
-                            </td>
-                            <td>
-                                <input type="email" name="email" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>Phone</label>
-                            </td>
-                            <td> 
-                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                            </td>
-                            <td>
-                                <label>Purpose</label>
-                            </td>
-                            <td>
-                                <select name="purpose">
-                                    <option value="" selected disabled hidden > Choose one</option>
-                                    <option value="complaint">Complaint</option>
-                                    <option value="enquire">Enquire</option>
-                                    <option value="suggestion">Suggestion</option>
-                                    <option value="data-protection">Data Protection Officer</option>
-                                    <option value="other"> Other</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="newsletter" checked="checked">
-                            </td>
-                            <td>
-                                <label>Subscribe our newsletter</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="message">Your message</label>
-                            </td>
-                            <td colspan="3">
-                                <textarea placeholder="Type your message here..."></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="4">
-                                <input type="submit" value="Submit now">
-                                <input type="reset" value="Reset">
-                            </td>
-                    </table>
-                </form>
-            </div>
-            </div>
+            <form method="POST" id="fontact-form">
+                <div class="contact-form">
+                    <div class="contact-row">
+                        <label>First name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="contact-row">
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="contact-row">
+                        <label>Phone</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div class="contact-row">
+                        <label>Purpose</label>
+                            <select name="purpose">
+                                <option value="" selected disabled hidden > Choose one</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="enquire">Enquire</option>
+                                <option value="suggestion">Suggestion</option>
+                                <option value="data-protection">Data Protection Officer</option>
+                                <option value="other"> Other</option>
+                            </select>
+                    </div>
+                    <div class="contact-row">
+                            <input type="checkbox" name="newsletter" checked="checked">
+                            <label>Subscribe our newsletter</label>
+                    </div>
+                    <div class="contact-row">
+                            <label for="message">Your message</label>
+                            <textarea placeholder="Type your message here..."></textarea>
+                            </div>
+                    <div class="contact-row">
+                            <input type="submit" value="Submit now">
+                            <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+        </div>
             
-            <!--end of contact us form -->
+        <!--end of contact us form -->
         <div class="col-2-of-2"> 
             <div class="contact-container">
-                <img src="https://img.icons8.com/ios-filled/50/000000/headset.png" alt="headset"/>
+                <div class="contact-image-container">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/headset.png" alt="headset"/>
+                </div>
+                <div class="contact-center-caption">
+                    <h4>Need help?</h4>
+                    <p>020 666 666</p> 
+                    <p> Monday to Friday: 8.00 am to 12 midnight Saturday and Sunday: 8.00 am to 11.00 pm</p>
+                </div>
+            </div>
+            <div class="address-container">
+                <div class="address-tag"> 
+                    <img src="https://img.icons8.com/metro/26/000000/marker.png" alt="location pin"/>
+                </div>
+                <div class="address-line">
+                    <p> 113 St George's Dr, Pimlico, London SW1V 4BP</p>
+                </div>
             </div>
         </div>
     </div>
